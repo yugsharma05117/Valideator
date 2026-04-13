@@ -1,0 +1,122 @@
+[
+  {
+    "category": "No Market Need",
+    "percentage": 42,
+    "description": "The #1 reason startups fail. Building something nobody wants.",
+    "signals": ["no user interviews conducted", "no waitlist or pre-orders", "solution looking for a problem", "founder assumption-driven"],
+    "examples": ["Juicero - $400 juicer nobody needed", "Google Wave - solution without a clear problem", "Quibi - short-form premium video nobody asked for"],
+    "advice": "Validate demand BEFORE building. Talk to 50+ potential users. Get pre-orders or letters of intent."
+  },
+  {
+    "category": "Ran Out of Cash",
+    "percentage": 29,
+    "description": "Poor financial planning and inability to raise follow-on funding.",
+    "signals": ["no clear revenue model", "high burn rate", "no path to profitability", "dependent on continuous fundraising"],
+    "examples": ["Jawbone - burned through $1B+ before shutting down", "Essential Phone - couldn't sustain hardware costs"],
+    "advice": "Plan for 18-24 months of runway. Know your unit economics from day one. Cut costs early."
+  },
+  {
+    "category": "Wrong Team",
+    "percentage": 23,
+    "description": "Co-founder conflicts, skill gaps, or lack of domain expertise.",
+    "signals": ["solo non-technical founder building tech product", "no industry experience", "co-founders with identical skills", "no advisor network"],
+    "examples": ["Many YC rejections cite team weakness", "Theranos - leadership without medical device expertise"],
+    "advice": "Build a complementary team. Get domain experts. Have honest co-founder agreements."
+  },
+  {
+    "category": "Outcompeted",
+    "percentage": 19,
+    "description": "Existing players or well-funded competitors dominate the market.",
+    "signals": ["entering market with established giants", "no clear differentiation", "competing on price alone", "no moat or defensibility"],
+    "examples": ["Friendster lost to Facebook/MySpace", "Many food delivery startups lost to DoorDash/UberEats"],
+    "advice": "Find your unique angle. Build a moat (network effects, data, brand). Don't compete head-on with giants."
+  },
+  {
+    "category": "Pricing/Cost Issues",
+    "percentage": 18,
+    "description": "Unable to find a sustainable pricing model or unit economics don't work.",
+    "signals": ["users unwilling to pay", "high customer acquisition cost", "negative unit economics", "race to the bottom pricing"],
+    "examples": ["MoviePass - unsustainable $10/month unlimited movies", "Many SaaS startups with too-low pricing"],
+    "advice": "Test pricing early. Understand your CAC and LTV. Charge what your product is worth."
+  },
+  {
+    "category": "Poor Product / User Experience",
+    "percentage": 17,
+    "description": "Product is confusing, buggy, or doesn't solve the problem well enough.",
+    "signals": ["high churn rate", "poor reviews", "complex onboarding", "feature bloat"],
+    "examples": ["Google+ - confusing circles concept", "Windows Phone - poor app ecosystem"],
+    "advice": "Ship MVP fast. Iterate based on feedback. Focus on core value proposition."
+  },
+  {
+    "category": "No Business Model",
+    "percentage": 17,
+    "description": "No clear path to making money despite having users.",
+    "signals": ["we'll figure out monetization later", "relying solely on ads", "no paying customers", "free forever with no premium tier"],
+    "examples": ["Vine - huge user base, no revenue model", "Many social apps that couldn't monetize"],
+    "advice": "Define your business model before launch. Test willingness to pay. Have multiple revenue streams."
+  },
+  {
+    "category": "Poor Marketing",
+    "percentage": 14,
+    "description": "Great product but inability to reach target customers.",
+    "signals": ["no go-to-market strategy", "relying on organic growth only", "no understanding of customer channels", "poor messaging"],
+    "examples": ["Many B2B SaaS tools with great tech but no distribution strategy"],
+    "advice": "Know your customer acquisition channels. Start marketing before launch. Build in public."
+  },
+  {
+    "category": "Ignore Customers",
+    "percentage": 14,
+    "description": "Not listening to user feedback or building what founders want vs what users need.",
+    "signals": ["no feedback loops", "building in isolation", "dismissing negative feedback", "no customer support"],
+    "examples": ["Digg v4 - redesign that ignored user preferences", "Snapchat redesign backlash"],
+    "advice": "Build feedback loops. Do weekly user interviews. Be data-driven in decisions."
+  },
+  {
+    "category": "Bad Timing",
+    "percentage": 13,
+    "description": "Launching too early (market not ready) or too late (market saturated).",
+    "signals": ["technology not mature enough", "regulatory environment blocking adoption", "entering declining market"],
+    "examples": ["Webvan - online grocery too early (1999)", "Many crypto projects launched at market peaks"],
+    "advice": "Study market readiness. Look at enabling technologies and trends. Time your entry carefully."
+  },
+  {
+    "category": "Lack of Focus",
+    "percentage": 13,
+    "description": "Trying to do too many things at once instead of nailing one thing.",
+    "signals": ["multiple products at launch", "pivoting too frequently", "no clear value proposition", "targeting too many customer segments"],
+    "examples": ["Color Labs - $41M raised, unfocused product", "Many startups that pivot too often"],
+    "advice": "Do one thing exceptionally well. Define your ICP (Ideal Customer Profile). Say no to feature requests."
+  },
+  {
+    "category": "Regulatory/Legal Issues",
+    "percentage": 8,
+    "description": "Legal challenges, regulatory hurdles, or compliance requirements that weren't anticipated.",
+    "signals": ["operating in regulated industry", "no legal counsel", "ignoring compliance", "grey-area business model"],
+    "examples": ["Aereo - streaming service killed by Supreme Court", "Many fintech startups hit by banking regulations"],
+    "advice": "Consult lawyers early. Understand regulatory landscape. Build compliance into your product."
+  },
+  {
+    "category": "Failure to Pivot",
+    "percentage": 7,
+    "description": "Stubbornly sticking with a failing strategy instead of adapting.",
+    "signals": ["ignoring market signals", "emotional attachment to original idea", "sunk cost fallacy", "no experimentation culture"],
+    "examples": ["Blockbuster refused to adapt to streaming", "Kodak ignored digital photography"],
+    "advice": "Set clear metrics for success. Be willing to pivot early. Run experiments constantly."
+  },
+  {
+    "category": "Scaling Too Fast",
+    "percentage": 9,
+    "description": "Growing faster than the business can sustain, hiring too aggressively.",
+    "signals": ["rapid hiring before product-market fit", "expanding to new markets prematurely", "over-investing in infrastructure"],
+    "examples": ["WeWork - scaled culture of excess", "Fab.com - grew from 700 to 0 employees"],
+    "advice": "Don't scale until you have product-market fit. Grow sustainably. Keep burn rate low."
+  },
+  {
+    "category": "Founder Burnout",
+    "percentage": 8,
+    "description": "Founders losing motivation, health issues, or personal conflicts.",
+    "signals": ["working 100+ hour weeks", "no work-life balance", "solo founder with no support", "passion fading"],
+    "examples": ["Many solo founders who simply burned out after 2-3 years"],
+    "advice": "Take care of your health. Build a support system. Have co-founders to share the load."
+  }
+]
