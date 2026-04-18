@@ -28,11 +28,11 @@ const scaleIn = {
 const contributors = [
   {
     name: 'Yug Sharma',
-    role: 'Backend Developer',
+    role: 'Backend and Database Developer',
     desc: 'Architected the backend infrastructure, designed the Groq AI integration, built the scoring engine and API endpoints that power Valideator\'s analysis pipeline.',
     icon: <Code size={24} />,
     color: 'purple',
-    skills: ['Node.js', 'Express', 'Groq API', 'Firebase']
+    skills: ['Node.js', 'Express', 'Groq API', 'Firebase', 'Database Design', 'Firebase']
   },
   {
     name: 'Anshika Yadav',
@@ -44,19 +44,19 @@ const contributors = [
   },
   {
     name: 'Anshika Singh',
-    role: 'Frontend Developer',
+    role: 'Designer & Data Visualization Specialist',
     desc: 'Built the report visualization system, implemented Chart.js integrations, and designed the data-rich analysis dashboards with intuitive user interactions.',
     icon: <Palette size={24} />,
     color: 'warm',
-    skills: ['React', 'Chart.js', 'CSS', 'Responsive Design']
+    skills: ['Framer', 'Chart.js', 'Data Visualization', 'UI/UX Design']
   },
   {
     name: 'Krishna Kumar',
-    role: 'Database Engineer',
+    role: 'Frontend Developer',
     desc: 'Designed the Firestore database schema, managed data storage and retrieval, built the leaderboard system and ensured data integrity across the platform.',
     icon: <Database size={24} />,
     color: 'rose',
-    skills: ['Firebase', 'Firestore', 'Data Modeling', 'NoSQL']
+    skills: ['React', 'JavaScript', 'CSS']
   }
 ];
 
