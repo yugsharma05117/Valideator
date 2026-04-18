@@ -3,6 +3,7 @@ const cors = require("cors");
 const leaderboardRoute = require("./routes/leaderboard");
 const failureAnalysisRoute = require("./routes/failureAnalysis");
 const chatRoute = require("./routes/chat");
+const contactRoute = require("./routes/contact");
 
 require("dotenv").config();
 
@@ -37,6 +38,7 @@ app.use(express.json());
 app.use("/leaderboard", leaderboardRoute);
 app.use("/failure-analysis", failureAnalysisRoute);
 app.use("/chat", chatRoute);
+app.use("/contact", contactRoute);
 
 // route handler
 app.use("/analyze", analyzeRoute);

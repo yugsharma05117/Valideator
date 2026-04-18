@@ -86,3 +86,23 @@ export async function clearChatSession(sessionId) {
 
   return res.json();
 }
+
+/**
+ * Send a contact form message.
+ * POST /contact
+ */
+export async function sendContactMessage(name, email, message) {
+  const res = await fetch(`${API_BASE}/contact`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ name, email, message })
+  });
+
+  const data = await res.json();
+
+  if (!res.ok) {
+    throw new Error(data.error || 'Failed to send message');
+  }
+
+  return data;
+}
