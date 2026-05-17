@@ -34,30 +34,6 @@ const contributors = [
     color: 'purple',
     skills: ['Node.js', 'Express', 'Groq API', 'Firebase', 'Database Design', 'Firebase']
   },
-  {
-    name: 'Anshika Yadav',
-    role: 'Frontend Developer',
-    desc: 'Crafted the responsive UI components, designed the interactive chat experience, and implemented the landing page with smooth animations and modern aesthetics.',
-    icon: <Palette size={24} />,
-    color: 'teal',
-    skills: ['React', 'CSS', 'Framer Motion', 'UI/UX']
-  },
-  {
-    name: 'Anshika Singh',
-    role: 'Designer & Data Visualization Specialist',
-    desc: 'Built the report visualization system, implemented Chart.js integrations, and designed the data-rich analysis dashboards with intuitive user interactions.',
-    icon: <Palette size={24} />,
-    color: 'warm',
-    skills: ['Framer', 'Chart.js', 'Data Visualization', 'UI/UX Design']
-  },
-  {
-    name: 'Krishna Kumar',
-    role: 'Frontend Developer',
-    desc: 'Designed the Firestore database schema, managed data storage and retrieval, built the leaderboard system and ensured data integrity across the platform.',
-    icon: <Database size={24} />,
-    color: 'rose',
-    skills: ['React', 'JavaScript', 'CSS']
-  }
 ];
 
 export default function AboutPage() {
