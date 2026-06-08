@@ -7,7 +7,8 @@ const router = express.Router();
 const conversations = new Map();
 
 const callAI = async (messages) => {
-  const apiUrl = process.env.AI_API_URL.replace(/\/+$/, '') + '/chat/completions';
+  const baseUrl = process.env.AI_API_URL.replace(/\/+$/, '');
+  const apiUrl = baseUrl.endsWith('/chat/completions') ? baseUrl : baseUrl + '/chat/completions';
   const res = await fetch(apiUrl, {
     method: "POST",
     headers: {

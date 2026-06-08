@@ -95,7 +95,8 @@ function isValidStartupIdea(input) {
 
 // ✅ AI CALL
 const callAI = async (prompt) => {
-  const apiUrl = process.env.AI_API_URL.replace(/\/+$/, '') + '/chat/completions';
+  const baseUrl = process.env.AI_API_URL.replace(/\/+$/, '');
+  const apiUrl = baseUrl.endsWith('/chat/completions') ? baseUrl : baseUrl + '/chat/completions';
   const res = await fetch(apiUrl, {
     method: "POST",
     headers: {
@@ -311,7 +312,7 @@ Idea: ${optimizedPrompt}
     const isRateLimit = err.message && err.message.toLowerCase().includes("rate limit");
     const errorMsg = isRateLimit
       ? "AI service is currently rate-limited. Please wait a minute and try again."
-      : "Server error — please try again.";
+      : `Server error - please try again. (${err.message || 'Unknown error'})`;
 
     res.status(isRateLimit ? 429 : 500).json({ error: errorMsg });
   }
