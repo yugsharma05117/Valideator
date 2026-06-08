@@ -37,7 +37,7 @@ Advice:
 `;
 
   const res = await groq.chat.completions.create({
-    model: "llama-3.1-8b-instant",
+    model: "Llama 3.1 8B Instant",
     messages: [
       { role: "user", content: prompt }
     ]

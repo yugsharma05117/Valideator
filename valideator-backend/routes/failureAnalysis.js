@@ -15,7 +15,8 @@ const failureData = JSON.parse(
  * Uses the curated dataset + AI reasoning to explain WHY the idea might fail.
  */
 const callAI = async (prompt) => {
-  const res = await fetch(process.env.AI_API_URL, {
+  const apiUrl = process.env.AI_API_URL.replace(/\/+$/, '') + '/chat/completions';
+  const res = await fetch(apiUrl, {
     method: "POST",
     headers: {
       "Authorization": `Bearer ${process.env.AI_API_KEY}`,

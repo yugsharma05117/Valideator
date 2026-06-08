@@ -95,14 +95,15 @@ function isValidStartupIdea(input) {
 
 // ✅ AI CALL
 const callAI = async (prompt) => {
-  const res = await fetch(process.env.AI_API_URL, {
+  const apiUrl = process.env.AI_API_URL.replace(/\/+$/, '') + '/chat/completions';
+  const res = await fetch(apiUrl, {
     method: "POST",
     headers: {
       "Authorization": `Bearer ${process.env.AI_API_KEY}`,
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
-      model: "openai/gpt-oss-20b",
+      model: "llama-3.1-8b-instant",
       messages: [
         {
           role: "user",
