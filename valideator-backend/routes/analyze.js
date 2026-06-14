@@ -48,7 +48,8 @@ const STARTUP_KEYWORDS = [
   'mentor', 'coach', 'community', 'network', 'peer-to-peer', 'p2p',
   'aggregator', 'on-demand', 'personalized', 'custom', 'niche',
   'enterprise', 'b2b', 'b2c', 'd2c', 'sell', 'buy', 'trade',
-  'invest', 'fund', 'crowdfunding', 'idea', 'innovation', 'disrupt'
+  'invest', 'fund', 'crowdfunding', 'idea', 'innovation', 'disrupt',
+  'buisness'
 ];
 
 function isValidStartupIdea(input) {
